@@ -1,6 +1,6 @@
-# Reproduction code for the revised manuscript
+# Reproduction code
 
-MATLAB scripts for the experiments in the revised manuscript. Run them from this folder. Each script sets its own seeds, sample sizes, and file names.
+MATLAB scripts for the experiments. Run them from this folder. Each script sets its own seeds, sample sizes, and file names.
 
 ## Software
 
@@ -63,7 +63,7 @@ On a machine with fewer than 16 cores, open the script and lower `cfg.workers` b
 
 Figure PDFs go to `Figures/` inside this folder. Set the environment variable `BAL_FIGURE_DIR` to write them somewhere else. The workflow diagram (Figure 1) and the illustrative threshold figure (Figure 2) are not produced by these experiment scripts.
 
-The `.tex` files are generated fragments. They are not drop-in replacements for the tables already set in the manuscript.
+The `.tex` files are generated table fragments.
 
 ## Data and preprocessing
 
